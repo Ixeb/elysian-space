@@ -1,0 +1,34 @@
+body {
+  background-color: #F7FBFC;
+}
+
+.navbar-logo {
+  width: 35px;
+  height: 35px;
+  margin-right: 3%;
+  margin-left: 6%;
+  border-radius: 50%;
+}
+
+.container-fluid {
+  padding: 2% 10%;
+}
+
+.title-header {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.btn {
+  margin: 1%;
+}
+
+#title {
+  width: 100%;
+  height: 100%;
+  padding: 15%;
+  color: #F7FBFC;
+  border-radius: 5px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)), url('../images/spain-pool.png');
+}
