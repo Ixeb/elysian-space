@@ -1,34 +1,48 @@
 body {
   background-color: #F7FBFC;
+  font-family: "Montserrat";
+}
+
+.container-fluid {
+  padding: 0 10%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0;
 }
 
 .navbar-logo {
-  width: 35px;
-  height: 35px;
+  width: 4rem;
+  height: 4rem;
   margin-right: 3%;
   margin-left: 6%;
   border-radius: 50%;
 }
 
-.container-fluid {
-  padding: 2% 10%;
+.navbar-item {
+  font-size: 1.5rem;
 }
 
-.title-header {
-  font-family: "Montserrat";
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.btn {
-  margin: 1%;
-}
-
+/* Title */
 #title {
   width: 100%;
   height: 100%;
-  padding: 15%;
   color: #F7FBFC;
-  border-radius: 5px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)), url('../images/spain-pool.png');
+  border-radius: 5px;
+}
+
+.title-header {
+  padding: 15%;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.title-desc {
+  font-size: 1.2rem;
+}
+
+.title-btn {
+  margin: 3% 0 0 0;
 }
