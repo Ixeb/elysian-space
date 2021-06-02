@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+  .container-fluid {
+    width: 100%;
+  }
+
+  .title-header {
+    padding-bottom: 0;
+  }
+
+  .filter {
+    display: inline-block;
+    padding-left: 5%;
+    text-align: left;
+  }
+
+  #title {
+    height: 240px;
+  }
+}
