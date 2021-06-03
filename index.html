@@ -17,6 +17,8 @@
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/laptop.css">
   <link rel="stylesheet" href="css/tablet.css">
@@ -26,7 +28,7 @@
 </head>
 
 <body>
-  <div class="container-fluid">
+  <div class="container-fluid-title">
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-md navbar-light">
       <a class="navbar-brand" href="#"><img src="images/logo-colour.jpg" class="navbar-logo" alt="logo-colour">Elysian Space</a>
@@ -48,7 +50,7 @@
           <h1 class="title-header">Holiday home rentals</h1>
         </div>
       </div>
-      <div class="row title-form gx-1 gy-1 px-3">
+      <div class="row title-form flex-fill d-flex gx-1 gy-1 px-3">
         <div class="col-lg-4 col-md-12 col-sm-12">
           <input type="text" class="form-control" placeholder="Location">
         </div>
@@ -63,6 +65,82 @@
         </div>
         <div class="col-lg-2 col-md-3 col-sm-12 d-grid gap-2">
           <button type="button" class="btn btn-primary">Search</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid-body">
+    <!-- Body -->
+    <div id="body">
+      <h1 class="body-header">Properties</h1>
+      <div class="row gx-0 body-entry">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+          <img class="body-entry-img" src="images/studio.jpg" alt="studio-img">
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9">
+          <div class="row body-entry-desc">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-2">
+              <h3 class="body-entry-desc-title">Studio Flat</h3>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-2">
+              <h4 class="body-entry-desc-rating">9.8</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h5 class="body-entry-desc-location">Bonalba</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12">
+              <p class="body-entry-desc-desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus finibus ultricies.
+                Nunc convallis lorem a gravida mollis. Proin nisl velit, volutpat ac augue vel, facilisis aliquam sapien.
+                Suspendisse auctor eget ligula in aliquam.
+              </p>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12">
+              <p class="body-entry-desc-price">
+                £150.00
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row gx-0 body-entry">
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <img class="body-entry-img" src="images/studio.jpg" alt="studio-img">
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9">
+          <div class="body-entry-desc">
+            <div class="row">
+              <div class="col-lg-6">
+                <h3 class="body-entry-desc-title">Studio Flat</h3>
+              </div>
+              <div class="col-lg-6">
+                <h4 class="body-entry-desc-rating">9.8</h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <h5 class="body-entry-desc-location">Bonalba</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-11">
+                <p class="body-entry-desc-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus finibus ultricies.
+                  Nunc convallis lorem a gravida mollis. Proin nisl velit, volutpat ac augue vel, facilisis aliquam sapien.
+                  Suspendisse auctor eget ligula in aliquam.
+                </p>
+              </div>
+              <div class="col-lg-1">
+                <p class="body-entry-desc-price">
+                  £150.00
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

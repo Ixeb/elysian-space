@@ -1,10 +1,15 @@
-@media (max-width: 992px) {
-  .container-fluid {
+@media (max-width: 768px) {
+  .container-fluid-title {
     width: 100%;
+  }
+
+  .container-fluid-body {
+    width: 99%;
   }
 
   .title-header {
     padding-bottom: 0;
+    font-size: 3rem;
   }
 
   .filter {
@@ -14,6 +19,6 @@
   }
 
   #title {
-    height: 360px;
+    height: 420px;
   }
 }
