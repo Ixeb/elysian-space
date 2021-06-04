@@ -1,10 +1,6 @@
 @media (max-width: 575px) {
-  .container-fluid-title {
+  .container-fluid {
     width: 100%;
-  }
-
-  .container-fluid-body {
-    width: 99%;
   }
 
   .title-header {
@@ -20,6 +16,14 @@
 
   #title {
     height: 360px;
+  }
+
+  #body {
+    width: 99%;
+  }
+
+  .body-header {
+    font-size: 1.55rem;
   }
 
   .body-entry-img {

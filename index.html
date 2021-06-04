@@ -8,8 +8,7 @@
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -28,7 +27,7 @@
 </head>
 
 <body>
-  <div class="container-fluid-title">
+  <div class="container-fluid">
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-md navbar-light">
       <a class="navbar-brand" href="#"><img src="images/logo-colour.jpg" class="navbar-logo" alt="logo-colour">Elysian Space</a>
@@ -45,31 +44,29 @@
     </nav>
     <!-- Title -->
     <div id="title">
-      <div class="row">
+      <div class="row gx-0">
         <div class="col-lg-12">
           <h1 class="title-header">Holiday home rentals</h1>
         </div>
       </div>
-      <div class="row title-form flex-fill d-flex gx-1 gy-1 px-3">
-        <div class="col-lg-4 col-md-12 col-sm-12">
+      <div class="row title-form flex-fill d-flex gx-0 gy-1 px-3">
+        <div class="col-lg-4 col-md-12 col-sm-12 gx-1">
           <input type="text" class="form-control" placeholder="Location">
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-6">
+        <div class="col-lg-2 col-md-3 col-sm-6 gx-1">
           <input type="text" class="form-control" placeholder="Check in">
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-6">
+        <div class="col-lg-2 col-md-3 col-sm-6 gx-1">
           <input type="text" class="form-control" placeholder="Check out">
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-12">
+        <div class="col-lg-2 col-md-3 col-sm-12 gx-1">
           <input type="text" class="form-control" placeholder="No. of Guests">
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-12 d-grid gap-2">
+        <div class="col-lg-2 col-md-3 col-sm-12 d-grid gap-2 gx-1">
           <button type="button" class="btn btn-primary">Search</button>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container-fluid-body">
     <!-- Body -->
     <div id="body">
       <h1 class="body-header">Properties</h1>
@@ -78,7 +75,7 @@
           <img class="body-entry-img" src="images/studio.jpg" alt="studio-img">
         </div>
         <div class="col-lg-9 col-md-9 col-sm-9">
-          <div class="row body-entry-desc">
+          <div class="row gx-0 body-entry-desc">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-2">
               <h3 class="body-entry-desc-title">Studio Flat</h3>
             </div>
@@ -86,59 +83,91 @@
               <h4 class="body-entry-desc-rating">9.8</h4>
             </div>
           </div>
-          <div class="row">
+          <div class="row gx-0">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <h5 class="body-entry-desc-location">Bonalba</h5>
+              <p class="body-entry-desc-location">Bonalba</p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12">
+          <div class="row gx-0">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <p class="body-entry-desc-desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus finibus ultricies.
-                Nunc convallis lorem a gravida mollis. Proin nisl velit, volutpat ac augue vel, facilisis aliquam sapien.
-                Suspendisse auctor eget ligula in aliquam.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum nulla nec dolor commodo malesuada sed quis ipsum. Praesent elementum eget velit blandit vestibulum. Integer dignissim mi vitae tellus volutpat, sed suscipit mauris pretium. Donec vitae enim orci. In et ultricies ligula, eu eleifend nibh. Aenean in tincidunt lacus. Cras a dictum ex. Proin ex est, dignissim ac auctor ac, aliquam vehicula libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel pretium augue, vitae suscipit magna. Praesent lacinia elementum odio at cursus.
               </p>
             </div>
-            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12">
+          </div>
+          <div class="row gx-0">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <p class="body-entry-desc-price">
-                £150.00
+                £70.00 <span class="body-entry-desc-price-pn">per night</span>
               </p>
             </div>
           </div>
         </div>
       </div>
       <div class="row gx-0 body-entry">
-        <div class="col-lg-3 col-md-3 col-sm-3">
-          <img class="body-entry-img" src="images/studio.jpg" alt="studio-img">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+          <img class="body-entry-img" src="images/ashtonville.jpg" alt="studio-img">
         </div>
         <div class="col-lg-9 col-md-9 col-sm-9">
-          <div class="body-entry-desc">
-            <div class="row">
-              <div class="col-lg-6">
-                <h3 class="body-entry-desc-title">Studio Flat</h3>
-              </div>
-              <div class="col-lg-6">
-                <h4 class="body-entry-desc-rating">9.8</h4>
-              </div>
+          <div class="row gx-0 body-entry-desc">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-2">
+              <h3 class="body-entry-desc-title">Ashtonville</h3>
             </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <h5 class="body-entry-desc-location">Bonalba</h5>
-              </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-2">
+              <h4 class="body-entry-desc-rating">10.0</h4>
             </div>
-            <div class="row">
-              <div class="col-lg-11">
-                <p class="body-entry-desc-desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus finibus ultricies.
-                  Nunc convallis lorem a gravida mollis. Proin nisl velit, volutpat ac augue vel, facilisis aliquam sapien.
-                  Suspendisse auctor eget ligula in aliquam.
-                </p>
-              </div>
-              <div class="col-lg-1">
-                <p class="body-entry-desc-price">
-                  £150.00
-                </p>
-              </div>
+          </div>
+          <div class="row gx-0">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <p class="body-entry-desc-location">Chalton</p>
+            </div>
+          </div>
+          <div class="row gx-0">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <p class="body-entry-desc-desc">
+                Praesent facilisis vestibulum pellentesque. Duis porttitor nibh vitae ante feugiat facilisis. Nam hendrerit dui sit amet luctus suscipit. Pellentesque non rhoncus tortor. Maecenas dignissim mauris sem, sit amet porta tellus tempor at. Praesent vestibulum neque arcu, nec finibus urna vestibulum id. Etiam faucibus dolor velit, sit amet dictum diam mattis id. Duis malesuada, arcu eget egestas tincidunt, felis neque consequat tortor, at convallis est odio in massa. Aliquam ac pharetra tortor, sed lobortis justo. Mauris nunc ligula, hendrerit nec erat nec, rhoncus tincidunt purus. In hac habitasse platea dictumst. Morbi imperdiet dapibus nisl, ut commodo ex convallis at. Nunc id interdum tortor, varius tempor lectus. Sed pharetra efficitur ultrices. Nam semper, dui at varius egestas, velit arcu accumsan quam, vitae finibus massa magna et velit.
+              </p>
+            </div>
+          </div>
+          <div class="row gx-0">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <p class="body-entry-desc-price">
+                £90.00 <span class="body-entry-desc-price-pn">per night</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row gx-0 body-entry">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+          <img class="body-entry-img" src="images/cave-house.jpg" alt="studio-img">
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9">
+          <div class="row gx-0 body-entry-desc">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-2">
+              <h3 class="body-entry-desc-title">Cave House</h3>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-2">
+              <h4 class="body-entry-desc-rating">6.8</h4>
+            </div>
+          </div>
+          <div class="row gx-0">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <p class="body-entry-desc-location">Xixona</p>
+            </div>
+          </div>
+          <div class="row gx-0">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <p class="body-entry-desc-desc">
+                Cras interdum lacus posuere, molestie elit eu, tempor mauris. Pellentesque vitae diam eu ex malesuada hendrerit vel non felis. Duis egestas neque at dui vestibulum ultrices. Vestibulum elementum leo et purus pellentesque, eget bibendum mauris imperdiet. Fusce at enim condimentum velit scelerisque imperdiet ut sed est. Sed eget rhoncus ex, ac consequat metus. Cras aliquet ac dolor sit amet vestibulum.
+              </p>
+            </div>
+          </div>
+          <div class="row gx-0">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <p class="body-entry-desc-price">
+                £20.00 <span class="body-entry-desc-price-pn">per night</span>
+              </p>
             </div>
           </div>
         </div>
