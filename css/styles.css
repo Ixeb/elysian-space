@@ -107,3 +107,19 @@ body {
 .body-entry-desc-price-pn {
   font-size: 0.9rem;
 }
+
+.body-entry-ask-bg {
+  padding-left: 20%;
+  background-image: url('../images/ask-speech-bubble.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.body-entry-separator {
+  width: 90%;
+  margin: 10% auto;
+  border: solid #769FCD 3px;
+  border-bottom: none;
+  border-radius: 1px;
+}
