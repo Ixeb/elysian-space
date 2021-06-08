@@ -109,7 +109,7 @@ body {
 }
 
 .body-entry-ask-bg {
-  padding-left: 20%;
+  padding-left: 15%;
   background-image: url('../images/ask-speech-bubble.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -119,7 +119,34 @@ body {
 .body-entry-separator {
   width: 90%;
   margin: 10% auto;
-  border: solid #769FCD 3px;
+  border: solid #769FCD 2px;
   border-bottom: none;
   border-radius: 1px;
+}
+
+#footer {
+
+}
+
+.footer-entry {
+  text-align: center;
+}
+
+.footer-link {
+  color: #769FCD;
+  font-size: 0.90rem;
+}
+
+.footer-separator {
+  width: 90%;
+  margin: 10% auto 5% auto;
+  border: solid #769FCD 2px;
+  border-bottom: none;
+  border-radius: 1px;
+}
+
+.footer-copyright {
+  padding: 4% 0 2% 0;
+  font-size: 0.75rem;
+  text-align: center;
 }
